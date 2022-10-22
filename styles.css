@@ -1,0 +1,128 @@
+.navbar_header {
+    width: auto;
+    background-color: #F4F6F6;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content:space-between;
+    box-shadow: 10px 4px 30px #F4F6F6;
+}
+
+form {
+    width: 400px;
+    background-color: #f4f6f6;
+    padding:30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 5px 1px 10px #000;
+}
+
+form h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.form_input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: 1px solid black ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+
+}
+
+.boton-agregar{
+    width: 100%;
+    background: #CCD1D1 ;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    margin: 16px 0;
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+
+}
+
+.fas {
+    font-size: 2.5em;
+    border-radius: 50%;
+    padding: 40px;
+
+}
+
+.fa-file-invoice-dollar {
+    color: #151313;
+}
+
+.fa-coins {
+    color: #F1C40F;
+}
+
+.fa-balance-scale {
+    color: #000000;
+}
+
+.main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.expenseForm {
+    padding-bottom: 50px;
+}
+
+.data-table {
+    text-align: left;
+    width: 90%;
+    background-color: #efefef;
+    border-radius: 20px;
+}
+
+thead {
+    background-color: #CDCFCF;
+}
+
+.table-space {
+    padding-left: 10px;
+}
+
+table td {
+    background-color:#EBF0EF;
+}
+
+tr:nth-child(even){
+    background-color:#D0D3D4;
+}
+
+tr:hover td {
+    background-color: #6c757d;
+}
+
+.actionButtons {
+    text-align: center;
+}
+
+.historicalDataTable {
+    width: 100vw;
+    padding: 0% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.shareCalculation{
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+}
